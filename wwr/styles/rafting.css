@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+body{
+    font-family: "Caveat", cursive;
+    max-width: 960px;
+    padding: 20px;
+}
+:root{  
+    --primary-color: #464d77;
+    --secundary-color: #f9db6d;
+    --accent1-color: #36827f;
+    --accent2-color: #f4eded;
+
+    --heading-font: 'Caveat', serif;
+    --paragraph-font:'Caveat', serif;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--secundary-color);
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--accent2-color);
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+img{
+    float: right;
+}
+article{
+    background-color: var(--primary-color);
+    opacity: 60%;
+}
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
