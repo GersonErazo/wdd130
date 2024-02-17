@@ -3,7 +3,7 @@ body{
     font-family: "Caveat", cursive;
     max-width: 960px;
     padding: 20px;
-}
+} 
 :root{  
     --primary-color: #464d77;
     --secundary-color: #f9db6d;
@@ -20,11 +20,12 @@ body{
 }
 .hero img {
     display: block;
-    width: 100%;
-    height: auto;
+    height: 170px;
+    width: 180px;
 }
 img{
-    float: right;
+    height: 30px;
+    width: 30px;
 }
 article{
     background-color: var(--primary-color);
@@ -34,4 +35,74 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr; 
 }
+header, footer, .hero, .his, .adv {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the elements by setting left and right margins to auto */
+    
+}
+footer img{
+    float: right;
+}   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+  }
+  .header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Logo takes auto width, Navigation takes remaining space */
+    align-items: center;
+  }
+  .logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav li {
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  article {
+    display: flex; 
+    align-items: center; 
+    background-color: rgba(70, 77, 119, 0.3);
+}
+article img {
+    margin-left: 20px; 
+    height: 170px;
+    width: 180px;
+}
+
+  .adv img{
+    height: 170px;
+    width: 180px;
+  }
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .his img{
+    height: 170px;
+    width: 180px;
+  }
