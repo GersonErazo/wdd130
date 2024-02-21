@@ -143,3 +143,6 @@ fieldset {
   width: 100px;
   height: 100px;
 }
+iframe{
+  border: 0;
+}
