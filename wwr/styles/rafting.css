@@ -106,3 +106,40 @@ article img {
     height: 170px;
     width: 180px;
   }
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: var(--accent2-color);
+}
+.profile{
+  width: 100px;
+  height: 100px;
+}
